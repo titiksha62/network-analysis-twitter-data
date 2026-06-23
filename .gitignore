@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+fresh_env/
+env/
+ENV/
+.env
+
+# Data files
+*.csv
+*.tsv
+*.zip
+*.tar.bz2
+*.tar.gz
+*.gz
+old_csv/
+pheme_data/
+
+# Machine Learning models
+*.joblib
+*.pkl
+*.h5
+*.hdf5
+*.keras
+
+# Generated visualizations
+*.html
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
