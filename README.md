@@ -57,8 +57,13 @@ When presenting this project, a core focus is explaining *how* our pipeline dist
    ```
 
 2. Install required dependencies:
+   The project includes two dependency files. You can use the standard one, or the "fresh" one which contains updated package versions.
    ```bash
-   pip install pandas numpy scikit-learn networkx python-louvain nltk seaborn matplotlib streamlit pyvis plotly
+   # Install the standard environment
+   pip install -r requirements.txt
+   
+   # OR install the updated "fresh" environment
+   pip install -r requirements_fresh.txt
    ```
 
 3. Ensure the source dataset `PHEME_veracity.tar.bz2` is present in the project root.
