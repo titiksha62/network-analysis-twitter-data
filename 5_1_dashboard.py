@@ -6,10 +6,10 @@ from pyvis.network import Network
 import streamlit.components.v1 as components
 import os
 
-st.set_page_config(page_title="SDG-16 Information Integrity Dashboard", layout="wide")
+st.set_page_config(page_title="Information Integrity Dashboard", layout="wide")
 
 def main():
-    st.title("SDG-16: Peace, Justice and Strong Institutions")
+    st.title("Information Integrity Dashboard")
     st.subheader("Interactive News Propagation Mapping")
     
     st.markdown("""

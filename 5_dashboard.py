@@ -7,10 +7,10 @@ import plotly.express as px
 import os
 
 # Set page configuration
-st.set_page_config(page_title="SDG-16 Information Integrity Dashboard", layout="wide")
+st.set_page_config(page_title="Information Integrity Dashboard", layout="wide")
 
 def main():
-    st.title("SDG-16: Peace, Justice and Strong Institutions")
+    st.title("Information Integrity Dashboard")
     st.subheader("Misinformation Propagation and Bridge-Node Analysis")
     
     st.markdown("""

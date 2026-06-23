@@ -1,8 +1,20 @@
-# SDG-16 Information Integrity & Misinformation Detection Pipeline
+# Information Integrity & Misinformation Detection Pipeline
 
-This project provides an end-to-end pipeline for analyzing and detecting misinformation (rumours) in social media structures, contributing to SDG-16: Peace, Justice, and Strong Institutions. 
+This project provides an end-to-end pipeline for analyzing and detecting misinformation (rumours) in social media structures. 
 
 It uses a combination of Natural Language Processing (NLP), Social Network Analysis (SNA), and Machine Learning to process conversational threads (e.g., the PHEME dataset) and classify them based on veracity. The pipeline also includes an interactive Streamlit dashboard to visually explore network propagation, user authority, sentiment, and model performance.
+
+## Visualizing the Network & Architecture
+
+*(To display the images you just shared, create an `images` folder in your project, place your screenshots inside, and update the filenames below)*
+
+<p align="center">
+  <img src="images/flowchart.png" alt="Architecture Flowchart" width="800"/>
+</p>
+<p align="center">
+  <img src="images/network_clusters.png" alt="Network Clusters" width="400"/>
+  <img src="images/dashboard_filters.png" alt="Dashboard Filters" width="400"/>
+</p>
 
 ## Project Structure and Pipeline
 
@@ -66,7 +78,9 @@ When presenting this project, a core focus is explaining *how* our pipeline dist
    pip install -r requirements_fresh.txt
    ```
 
-3. Ensure the source dataset `PHEME_veracity.tar.bz2` is present in the project root.
+3. **Download the Dataset:**
+   You can download the dataset from [Figshare: PHEME dataset for Rumour Detection](https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078).
+   Ensure the downloaded archive (`PHEME_veracity.tar.bz2` or `6392078.zip`) is placed in the project root directory before running the scripts.
 
 ## Demo Execution Steps
 

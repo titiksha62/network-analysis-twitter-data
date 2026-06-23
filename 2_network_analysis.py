@@ -63,7 +63,7 @@ def run_network():
     # Highlight the bridge node in red
     nx.draw_networkx_nodes(sub, pos, nodelist=[top_node], node_color='red', node_size=800)
     
-    plt.title(f"SDG-16 Analysis: Micro-Network of Top Bridge Node (Red)")
+    plt.title(f"Micro-Network of Top Bridge Node (Red)")
     plt.show()
 
 if __name__ == "__main__":

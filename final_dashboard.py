@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 import plotly.express as px
 import os
 
-st.set_page_config(page_title="Optimized SDG-16 Dashboard", layout="wide")
+st.set_page_config(page_title="Information Integrity Dashboard", layout="wide")
 
 # --- CACHING DATA FOR SPEED ---
 @st.cache_data

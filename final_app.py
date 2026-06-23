@@ -8,7 +8,7 @@ import os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # Set page configuration for a professional wide layout
-st.set_page_config(page_title="SDG-16 Information Integrity Dashboard", layout="wide")
+st.set_page_config(page_title="Information Integrity Dashboard", layout="wide")
 
 @st.cache_resource
 def load_assets():
@@ -20,7 +20,7 @@ def load_assets():
     return df, comm, model
 
 def main():
-    st.title("SDG-16: Peace, Justice and Strong Institutions")
+    st.title("Information Integrity Dashboard")
     st.subheader("Automated Misinformation Detection and Social Cluster Analysis")
 
     df, comm, model = load_assets()
