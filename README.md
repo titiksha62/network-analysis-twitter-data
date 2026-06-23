@@ -8,11 +8,11 @@ It uses a combination of Natural Language Processing (NLP), Social Network Analy
 
 
 <p align="center">
-  <img src="images/flowchart.png" alt="Architecture Flowchart" width="800"/>
+  <img src="images/Architecture%20Flowchart.png" alt="Architecture Flowchart" width="800"/>
 </p>
 <p align="center">
-  <img src="images/network_clusters.png" alt="Network Clusters" width="400"/>
-  <img src="images/dashboard_filters.png" alt="Dashboard Filters" width="400"/>
+  <img src="images/Network%20Clusters.png" alt="Network Clusters" width="400"/>
+  <img src="images/Dashboard%20Filters.png" alt="Dashboard Filters" width="400"/>
 </p>
 
 ## Project Structure and Pipeline
