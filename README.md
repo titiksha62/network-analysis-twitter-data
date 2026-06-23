@@ -6,7 +6,6 @@ It uses a combination of Natural Language Processing (NLP), Social Network Analy
 
 ## Visualizing the Network & Architecture
 
-*(To display the images you just shared, create an `images` folder in your project, place your screenshots inside, and update the filenames below)*
 
 <p align="center">
   <img src="images/flowchart.png" alt="Architecture Flowchart" width="800"/>
